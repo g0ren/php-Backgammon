@@ -1,0 +1,45 @@
+.checker_container{
+    width: 69%;
+    grid-area: board;
+    position: absolute;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 8% 8% 8% 8% 8% 8% 4% 8% 8% 8% 8% 8% 8%;
+    grid-template-rows: 48% 4% 48%;
+    grid-template-areas:
+            "p13 p14 p15 p16 p17 p18 .   p19 p20 p21 p22 p23 p24"
+            ".   .   .   .   .   .   bar .   .   .   .   .   ."
+            "p12 p11 p10 p9  p8  p7  .   p6  p5  p4  p3  p2  p1";
+}
+
+.point{
+    margin-left: 0.6vw;
+    width: 5vw;
+    height: 15vw;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-areas:
+            "pp5"
+            "pp4"
+            "pp3"
+            "pp2"
+            "pp1";
+}
+
+.checker{
+    width: 4vw;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    display: grid;
+    margin-left: 0.5vw;
+}
+
+.red{
+    background-color: red;
+}
+
+.white{
+    background-color: white;
+}

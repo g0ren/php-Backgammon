@@ -1,0 +1,146 @@
+.container_container{
+    width: 100%;
+    display: grid;
+    background-color: darkgray;
+    grid-template-columns: 70% 30%;
+    grid-template-areas: "board dice";
+}
+
+.board_container{
+    width: 100%;
+    grid-area: board;
+    display: grid;
+    background-color: saddlebrown;
+    grid-template-columns: 48% 4% 48%;
+    grid-template-areas: "outer bar home";
+}
+
+
+
+.board{
+    width: 98%;
+    aspect-ratio: 1/1;
+    display: grid;
+    background-color: rosybrown;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    grid-template-rows: 46% 8% 46%;
+    grid-template-areas:
+            "t1 t2 t3 t4 t5 t6"
+            ". . . . . ."
+            "b1 b2 b3 b4 b5 b6";
+}
+
+#home{
+    grid-area: home;
+}
+
+#outer{
+    grid-area: outer;
+}
+
+#p1{
+    grid-area: p1;
+}
+
+#p2{
+    grid-area: p2;
+}
+
+#p3{
+    grid-area: p3;
+}
+
+#p4{
+    grid-area: p4;
+}
+
+#p5{
+    grid-area: p5;
+}
+
+#p6{
+    grid-area: p6;
+}
+
+#p7{
+    grid-area: p7;
+}
+
+#p8{
+    grid-area: p8;
+}
+
+#p9{
+    grid-area: p9;
+}
+
+#p10{
+    grid-area: p10;
+}
+
+#p11{
+    grid-area: p11;
+}
+
+#p12{
+    grid-area: p12;
+}
+
+#p13{
+    grid-area: p13;
+}
+
+#p14{
+    grid-area: p14;
+}
+
+#p15{
+    grid-area: p15;
+}
+
+#p16{
+    grid-area: p16;
+}
+
+#p17{
+    grid-area: p17;
+}
+
+#p18{
+    grid-area: p18;
+}
+
+#p19{
+    grid-area: p19;
+}
+
+#p20{
+    grid-area: p20;
+}
+
+#p21{
+    grid-area: p21;
+}
+
+#p22{
+    grid-area: p22;
+}
+
+#p23{
+    grid-area: p23;
+}
+
+#p24{
+    grid-area: p24;
+}
+
+
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 2.5vw solid transparent;
+    border-right: 2.5vw solid transparent;
+    border-bottom: 15vw solid darkgreen;
+    margin-left: 0.6vw;
+}
